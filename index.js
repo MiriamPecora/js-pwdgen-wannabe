@@ -9,3 +9,7 @@ favouriteColor = prompt("Inserisci il tuo colore preferito");
 document.getElementById("userPassword").innerText = `${userName}${userSurname}${favouriteColor}`;
 
 console.log(`La password e: ${userName}${userSurname}${favouriteColor}`);
+
+let randomNumber = Math.floor(Math.random() * 100);
+
+document.getElementById("randomNumber").innerText += randomNumber;
